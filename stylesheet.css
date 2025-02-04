@@ -1,1 +1,36 @@
+body{
+    background-color: #EAE2D3;
+}
+
+body.index2 {
+    background-color: #2b2b2b;
+}
+
+p.index2 {
+    color: aliceblue;
+}
+
+h1.index2{
+    color: aliceblue;
+}
+
+button[type=button]{
+    color: red;
+    background-color: black; 
+}
+
+button[type=button]:hover {
+    color: aliceblue;
+    background-color: #333333; 
+}
+
+input[type=submit]{
+    color: #EAE2D3;
+    background-color: #2b2b2b;
+}
+
+input[type=submit]:hover{
+    color: aliceblue;
+    background-color: #555555;
+}
 
