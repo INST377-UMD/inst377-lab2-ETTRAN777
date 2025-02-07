@@ -17,20 +17,30 @@ h1.index2{
 button[type=button]{
     color: red;
     background-color: black; 
+    margin: 2px;
 }
 
 button[type=button]:hover {
     color: aliceblue;
     background-color: #333333; 
+    margin: 2px;
 }
 
-input[type=submit]{
+input[type="submit"]{
     color: #EAE2D3;
     background-color: #2b2b2b;
+    margin: 2px;
 }
 
-input[type=submit]:hover{
+input[type="submit"]:hover{
     color: aliceblue;
     background-color: #555555;
+    margin: 2px;
 }
 
+#catImg{
+    display:block;
+    width:50%;
+    margin-left:auto;
+    margin-right: auto;
+}
